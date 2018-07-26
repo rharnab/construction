@@ -1,0 +1,446 @@
+body{
+    font-size: 14px;
+}
+.header-area{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.header-area h3 span{
+    color: #F7B604;
+    text-transform: uppercase;
+
+}
+/*top-nav-icon*/
+.top-nav-icon{
+    background-color: #111F29;
+}
+.single-icon{
+        color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.single-icon span a{
+    color: white;
+}
+.fa-phone{
+    transform: rotate(100deg);
+    margin-left: 5px;
+}
+.top-icon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.single-sing{
+    border: 1px solid #0D1725;
+    text-align: center;
+    background-color: #0D1725;
+    border-radius: 100%;
+    width: 30px;
+    width: 30;
+    height: 30px;
+    padding-top: 3px;
+    
+}
+.single-sing  a span{
+    color: white;
+}
+
+/*navbar*/
+.silder-area{
+    background-image: url(img/s1.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: .5rem;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FAB702;
+}
+/*slider*/
+.slider-text{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: white;
+}
+.font{
+    color: red;
+    font-size: 3rem;
+}
+/*different area*/
+.differesnt-text .input-group{
+    margin-top: 40px;
+    
+}
+[type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    background-color: #F6B506;
+    border: 1px solid #F6B506;
+    color: white;
+}
+.input-group-text{
+    background-color: #F6B506;
+    color: white;
+}
+.different-content{
+    margin-top: 50px;
+}
+.diffetent-icon{
+   text-align: center;
+}
+.diffetent-icon span{
+    font-size: 24px;
+    
+}
+.diffetent-icon span:hover{
+    color: #F6B506;
+}
+.diffetent-icon p{
+    font-size: 18px;
+}
+/*appoiortment*/
+.appoirtment{
+    background-color: #F6B506;
+    margin-top: 50px;
+    
+}
+.appoirtment .input-group-text{
+    background-color: #0C253C;
+    color: white;
+}
+.appoirtment [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    background-color:  #0C253C;
+    
+}
+.appoirtment-content {
+       padding-top: 20px;
+}
+/*offering content*/
+.offering-content{
+    margin-top: 50px;
+}
+.single-offering{
+    text-align: center;
+}
+.single-offering span{
+    font-size: 36px;
+    color: gray;
+}
+.single-offering h3{
+    margin-top: 20px;
+    
+}
+.single-offering  p{
+    margin-top: 20px;
+}
+.single-offering:hover .offering-icon{
+    visibility: visible;
+}
+.single-offering:hover span{
+    color: #F6B506;
+}
+
+.offering-icon {
+    color: white;
+    font-size: 29px;
+    background-color: #F6B506;
+    display: inline-block;
+    border-radius: 100%;
+    padding: 0px 7px;
+    visibility: hidden;
+    
+}
+/*isotop area*/
+
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+    display: table;
+    margin: auto;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+
+
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width:33%;
+  padding: 10px;
+}
+.element-item img{
+    width: 100%;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+.isotop-area .button{
+    background-image: unset;
+    background-color: white;
+}
+.button.is-checked {
+    color:  #F6B506;
+    text-shadow: none;
+}
+ 
+.isotop-area .button-group{
+	display: table;
+	margin: auto;
+}
+.isotop-area .button-area{
+	width: 10rem;
+    display: table;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+.isotop-area .button-area .form-control{
+	background-color: #FFBE4A;
+	color: white;
+
+}
+.isotop-area .button-area .input-group-text {
+    background-color: #FFBE4A;
+    border: none;
+    border-radius: unset;
+    color: white;
+}
+
+/*counter area*/
+.counter-area{
+    margin-top: 50px;
+    background-image: url(img/co1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.counter-content{
+   padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sigle-counter{
+    text-align: center;
+    color: white;
+}
+.counter-icon{
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 4px;
+}
+.counter-text{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    
+}
+.counter-text p span{
+    color: #FFBE4A;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+/*plan area*/
+.plan-content{
+    margin-top: 50px;
+}
+.single-plan{
+    text-align: center;
+        background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.prize-text{
+    padding-top: 30px;
+    background-color: white;
+}
+.single-plan:hover .prize-text{
+    background-color: #FAB702;
+    top: 0;
+}
+.single-plan:hover .button-area .form-control{
+    background-color: #FAB702;
+}
+.single-plan:hover .button-area .input-group-text{
+    background-color: #FAB702;
+}
+.prize-text h3{
+    font-size: 2.75rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.plan-text ul{
+        line-height: 3;
+    padding-left: 2px;
+    
+}
+.plan-text ul li{
+    list-style: none;
+    
+}
+.input-group-text2{
+        background-color: orange;
+    color: white;
+    padding-top: 2px;
+    font-size: 18px;
+
+}
+.separetor{
+    background-color: #C2C6CA;
+    width: 100%;
+    height: 1px;
+    text-align: center;
+}
+
+.button-area{
+	width: 14rem;
+    display: table;
+    margin: auto;
+    
+}
+.button-area .form-control{
+	background-color: #0C253C;
+	color: white;
+
+}
+.button-area .input-group-text {
+    background-color: #0C253C;
+    border: none;
+    border-radius: unset;
+    color: white;
+}
+.button-area [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    border: 1px solid #0C253C;
+    color: white;
+}
+.single-plan:hover [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    background-color: #F6B506;
+    border: 1px solid #FAB702;
+    color: white;
+}
+/*member-area*/
+.member-content{
+    padding-top: 50px;
+}
+.sigle-img img{
+    width: 100%;
+}
+.member-img .col-md-4{
+    padding-left: 0;
+    padding-right: 0;
+}
+.member-icon ul{
+    padding-left: 0;
+}
+.member-icon ul li{
+    list-style: none;
+    float: left;
+    padding: 4px 11px;;
+    width: 30px;
+    height: 30px;
+   
+}
+.member-icon ul li a s{
+    border: 1px solid #0D1725;
+    text-align: center;
+    background-color: #0D1725;
+    border-radius: 100%;
+    width: 30px;
+    width: 30;
+    height: 30px;
+    padding-top: 3px;
+}
+.member-icon ul li{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 100%;
+}
+
+.member-icon ul li:hover{
+    background-color: green;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 3px;
+}
+.member-icon ul li a{
+     color: white;
+}
+.member-icon ul li:hover a{
+    color: white;
+    
+}
+.member-text{
+    text-align: justify;
+}
